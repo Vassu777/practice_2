@@ -15,3 +15,7 @@ class operations2(operations):
 class substracting(operations):
     substract=operations.e-operations.c
     print(substract)
+
+class multiplication(operations):
+    multiplication=operations.c*operations.e
+    print(multiplication)
