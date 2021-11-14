@@ -19,3 +19,7 @@ class substracting(operations):
 class multiplication(operations):
     multiplication=operations.c*operations.e
     print(multiplication)
+
+class anonymus(operations):
+    divide=operations.e/operations.c
+    print(divide)
