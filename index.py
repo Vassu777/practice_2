@@ -1,5 +1,6 @@
 class operations():
     c=12
+    e=32
     def add(a,b):
         c=a+b
         print(c)
@@ -9,3 +10,8 @@ class operations():
 class operations2(operations):
 
     print(operations.c)
+    
+
+class substracting(operations):
+    substract=operations.e-operations.c
+    print(substract)
